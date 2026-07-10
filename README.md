@@ -1,22 +1,22 @@
-# Kad Kahwin Digital BM
+# Ekad Digital
 
-Landing page Bahasa Melayu untuk sistem kad kahwin digital, dibina dengan HTML + Tailwind CDN.
+Landing page Bahasa Melayu untuk kad kahwin digital, dibina dengan **TanStack React + Tailwind CSS** dan bergaya **Tailwind UI**.
 
-## Kandungan
-- Hero section
-- Template gallery
-- Cara tempah
-- Fungsi utama
-- Pakej harga
-- Testimoni
-- Soalan lazim
-- CTA akhir
+## Stack
+- React 18
+- TypeScript
+- Vite
+- TanStack React Query
+- Tailwind CSS
+- Lucide icons
 
-## Cara jalan
-Buka `index.html` terus dalam browser, atau guna server statik:
-
+## Cara run
 ```bash
-python3 -m http.server 8000
+npm install
+npm run dev
 ```
 
-Lepas itu buka `http://127.0.0.1:8000`.
+## Build
+```bash
+npm run build
+```
